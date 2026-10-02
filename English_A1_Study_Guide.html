@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>English A1 - Self Introduction & Education</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 1000px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color:#222; }
+h1 { margin-bottom: 6px; }
+h2 { margin-top: 35px; }
+.note { background:#f4f7fb; padding:14px 16px; border-radius:10px; }
+table { width:100%; border-collapse:collapse; margin-top:12px; }
+th,td { border:1px solid #ddd; padding:10px; text-align:left; }
+th { background:#eef3f8; }
+button.speak { border:0; border-radius:7px; padding:4px 7px; cursor:pointer; background:#e8eef5; }
+.small { color:#666; font-size:.9em; }
+</style>
+<script>
+function speak(text) {
+  if (!window.speechSynthesis) {
+    alert("Trình duyệt này không hỗ trợ đọc tiếng Anh.");
+    return;
+  }
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US";
+  u.rate = 0.82;
+  u.pitch = 1.0;
+  speechSynthesis.speak(u);
+}
+</script>
+</head>
+<body>
+<h1>English A1: Self Introduction & Education</h1>
+<div class="note">
+Mục tiêu: học các câu cực cơ bản để tự giới thiệu và các từ vựng thường gặp ở trường học.
+<br><b>🔊</b> Bấm nút loa để nghe phát âm tiếng Anh. Có thể mở file bằng Chrome/Edge.
+</div>
+
+<h2>1. Tự giới thiệu bản thân</h2>
+<table><tr><th>English</th><th>Nghĩa tiếng Việt</th></tr><tr><td><button class="speak" onclick="speak(&#x27;Hello. My name is Anna.&#x27;)">🔊</button> Hello. My name is Anna.</td><td>Xin chào. Tên tôi là Anna.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I am 20 years old.&#x27;)">🔊</button> I am 20 years old.</td><td>Tôi 20 tuổi.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I am a student.&#x27;)">🔊</button> I am a student.</td><td>Tôi là học sinh/sinh viên.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I study at ABC School.&#x27;)">🔊</button> I study at ABC School.</td><td>Tôi học ở trường ABC.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I am in class 10A.&#x27;)">🔊</button> I am in class 10A.</td><td>Tôi học lớp 10A.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I live in Vietnam.&#x27;)">🔊</button> I live in Vietnam.</td><td>Tôi sống ở Việt Nam.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I am from Vietnam.&#x27;)">🔊</button> I am from Vietnam.</td><td>Tôi đến từ Việt Nam.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I like English.&#x27;)">🔊</button> I like English.</td><td>Tôi thích tiếng Anh.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;My favorite subject is English.&#x27;)">🔊</button> My favorite subject is English.</td><td>Môn học yêu thích của tôi là tiếng Anh.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I like reading books.&#x27;)">🔊</button> I like reading books.</td><td>Tôi thích đọc sách.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I have two close friends.&#x27;)">🔊</button> I have two close friends.</td><td>Tôi có hai người bạn thân.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Nice to meet you.&#x27;)">🔊</button> Nice to meet you.</td><td>Rất vui được gặp bạn.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Thank you for listening.&#x27;)">🔊</button> Thank you for listening.</td><td>Cảm ơn bạn đã lắng nghe.</td></tr></table>
+
+<h2>2. Từ vựng về trường học</h2>
+<table><tr><th>English</th><th>Nghĩa tiếng Việt</th></tr><tr><td><button class="speak" onclick="speak(&#x27;school&#x27;)">🔊</button> school</td><td>trường học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;class&#x27;)">🔊</button> class</td><td>lớp học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;classroom&#x27;)">🔊</button> classroom</td><td>phòng học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;student&#x27;)">🔊</button> student</td><td>học sinh / sinh viên</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;teacher&#x27;)">🔊</button> teacher</td><td>giáo viên</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;friend&#x27;)">🔊</button> friend</td><td>bạn</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;subject&#x27;)">🔊</button> subject</td><td>môn học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;English&#x27;)">🔊</button> English</td><td>tiếng Anh</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Math&#x27;)">🔊</button> Math</td><td>toán</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Literature&#x27;)">🔊</button> Literature</td><td>ngữ văn</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;History&#x27;)">🔊</button> History</td><td>lịch sử</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Geography&#x27;)">🔊</button> Geography</td><td>địa lý</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Physics&#x27;)">🔊</button> Physics</td><td>vật lý</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Chemistry&#x27;)">🔊</button> Chemistry</td><td>hóa học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Biology&#x27;)">🔊</button> Biology</td><td>sinh học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Computer Science&#x27;)">🔊</button> Computer Science</td><td>khoa học máy tính / tin học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;lesson&#x27;)">🔊</button> lesson</td><td>bài học / tiết học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;homework&#x27;)">🔊</button> homework</td><td>bài tập về nhà</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;test&#x27;)">🔊</button> test</td><td>bài kiểm tra</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;exam&#x27;)">🔊</button> exam</td><td>kỳ thi / bài thi</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;book&#x27;)">🔊</button> book</td><td>sách</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;notebook&#x27;)">🔊</button> notebook</td><td>vở / sổ ghi chép</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;pen&#x27;)">🔊</button> pen</td><td>bút</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;desk&#x27;)">🔊</button> desk</td><td>bàn học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;library&#x27;)">🔊</button> library</td><td>thư viện</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;break&#x27;)">🔊</button> break</td><td>giờ nghỉ</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;university&#x27;)">🔊</button> university</td><td>trường đại học</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;college&#x27;)">🔊</button> college</td><td>trường cao đẳng</td></tr></table>
+
+<h2>3. Câu hỏi & câu dùng thường xuyên</h2>
+<table><tr><th>English</th><th>Nghĩa tiếng Việt</th></tr><tr><td><button class="speak" onclick="speak(&#x27;What is your name?&#x27;)">🔊</button> What is your name?</td><td>Bạn tên gì?</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;How old are you?&#x27;)">🔊</button> How old are you?</td><td>Bạn bao nhiêu tuổi?</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;Where do you study?&#x27;)">🔊</button> Where do you study?</td><td>Bạn học ở đâu?</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;What class are you in?&#x27;)">🔊</button> What class are you in?</td><td>Bạn học lớp nào?</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;What is your favorite subject?&#x27;)">🔊</button> What is your favorite subject?</td><td>Môn học yêu thích của bạn là gì?</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I am a student.&#x27;)">🔊</button> I am a student.</td><td>Tôi là học sinh/sinh viên.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I study English.&#x27;)">🔊</button> I study English.</td><td>Tôi học tiếng Anh.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I like Math.&#x27;)">🔊</button> I like Math.</td><td>Tôi thích môn Toán.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;My teacher is nice.&#x27;)">🔊</button> My teacher is nice.</td><td>Giáo viên của tôi rất tốt / dễ mến.</td></tr>
+<tr><td><button class="speak" onclick="speak(&#x27;I have homework today.&#x27;)">🔊</button> I have homework today.</td><td>Hôm nay tôi có bài tập về nhà.</td></tr></table>
+
+<p class="small">Gợi ý: mỗi ngày chọn 5 câu/từ, nghe 3 lần, đọc theo 3 lần, rồi tự nói không nhìn tài liệu.</p>
+</body>
+</html>
